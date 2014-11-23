@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "2b30d11ca4679ce0ea8e1c535ad57fe907a4da51ed9ef884d9f5175a7b443679",
-    "current": "2b30d11ca4679ce0ea8e1c535ad57fe907a4da51ed9ef884d9f5175a7b443679"
+    "previous": "6089e0c60c232e6307fcb575f560559cfe53aa54a39dda9d39324860cd87a92b",
+    "current": "6089e0c60c232e6307fcb575f560559cfe53aa54a39dda9d39324860cd87a92b"
   },
   "fonts": [
-    "fontcustom-webfont//Genericons.ttf",
-    "fontcustom-webfont//Genericons.svg",
-    "fontcustom-webfont//Genericons.woff",
-    "fontcustom-webfont//Genericons.eot"
+    "../genericons//Genericons.ttf",
+    "../genericons//Genericons.svg",
+    "../genericons//Genericons.woff",
+    "../genericons//Genericons.eot"
   ],
   "glyphs": {
     "404": {
@@ -246,6 +246,10 @@
       "codepoint": 61973,
       "source": "svg/instagram.svg"
     },
+    "issuu": {
+      "codepoint": 62749,
+      "source": "svg/issuu.svg"
+    },
     "italic": {
       "codepoint": 62578,
       "source": "svg/italic.svg"
@@ -334,6 +338,10 @@
       "codepoint": 62519,
       "source": "svg/phone.svg"
     },
+    "photobucket": {
+      "codepoint": 62747,
+      "source": "svg/photobucket.svg"
+    },
     "picture": {
       "codepoint": 62579,
       "source": "svg/picture.svg"
@@ -398,6 +406,10 @@
       "codepoint": 62739,
       "source": "svg/rating-half.svg"
     },
+    "rdio": {
+      "codepoint": 62744,
+      "source": "svg/rdio.svg"
+    },
     "reddit": {
       "codepoint": 61986,
       "source": "svg/reddit.svg"
@@ -425,6 +437,10 @@
     "rightarrow": {
       "codepoint": 62721,
       "source": "svg/rightarrow.svg"
+    },
+    "scribd": {
+      "codepoint": 62748,
+      "source": "svg/scribd.svg"
     },
     "search": {
       "codepoint": 62464,
@@ -465,6 +481,14 @@
     "skype": {
       "codepoint": 61984,
       "source": "svg/skype.svg"
+    },
+    "slideshare": {
+      "codepoint": 62745,
+      "source": "svg/slideshare.svg"
+    },
+    "soundcloud": {
+      "codepoint": 62746,
+      "source": "svg/soundcloud.svg"
     },
     "spam": {
       "codepoint": 62500,
@@ -513,6 +537,10 @@
     "tag": {
       "codepoint": 62210,
       "source": "svg/tag.svg"
+    },
+    "ted": {
+      "codepoint": 62750,
+      "source": "svg/ted.svg"
     },
     "time": {
       "codepoint": 62211,
@@ -616,9 +644,9 @@
     },
     "no_hash": true,
     "output": {
-      "css": "fontcustom-webfont/",
-      "fonts": "fontcustom-webfont/",
-      "preview": "fontcustom-webfont/"
+      "css": "../genericons/",
+      "fonts": "../genericons/",
+      "preview": "../genericons/"
     },
     "preprocessor_path": "",
     "quiet": false,
@@ -628,7 +656,7 @@
     ]
   },
   "templates": [
-    "fontcustom-webfont/example.html",
-    "fontcustom-webfont/genericons.css"
+    "../genericons/example.html",
+    "../genericons/genericons.css"
   ]
 }
